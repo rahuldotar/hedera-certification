@@ -1,0 +1,20 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createtoken": "node scripts/createtoken.js",
+    "start:assosiatetoken": "node scripts/assosiatetoken.js",
+    "start:transfertoken": "node scripts/transfertoken.js",
+    "start:pausetoken": "node scripts/pausetoken.js",
+    "start:unpausetoken": "node scripts/unPausetoken.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

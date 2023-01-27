@@ -1,0 +1,17 @@
+{
+  "name": "consensus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.16.6",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start:createtopic": "node scripts/createTopic.js",
+    "start:submitmessage": "node scripts/submitmessage.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
